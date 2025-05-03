@@ -2,8 +2,13 @@ import React from 'react'
 
 function Hero() {
     return (
-        <section className="bg-black lg:grid lg:h-screen lg:place-content-center">
-            <div className="mx-auto w-screen max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
+        <section className="bg-black">
+            <div className='flex items-baseline justify-center pt-20'>
+                <h2 className='text-white text-center border border-white px-2 p-2 rounded-full'>
+                    See What's New | <span className='text-sky-300'>AI Diagram</span>
+                </h2>
+            </div>
+            <div className="mx-auto h-screen max-w-screen-xl px-4 py-12 lg:flex">
                 <div className="mx-auto max-w-prose text-center">
                     <h1 className="text-4xl font-bold text-sky-300 sm:text-5xl">
                         AI
